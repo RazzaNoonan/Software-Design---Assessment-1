@@ -1,0 +1,13 @@
+package ie.atu.sw;
+
+public class DoubleOps {
+    private IOperation operation;
+    
+    public DoubleOps(IOperation operation) {
+        this.operation = operation;
+    }
+    
+    public double process(double number) {
+        return operation.execute(number);
+    }
+}

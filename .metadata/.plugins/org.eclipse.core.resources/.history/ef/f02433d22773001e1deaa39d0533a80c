@@ -1,0 +1,10 @@
+package ie.atu.sw;
+
+//Absolute class is a concrete implementation of the IOperation interface.
+//It provides a definition for calculating the absolute value.
+public class Absolute extends BaseOperation {
+    @Override
+    public double execute(double number) {
+        return operation(number);
+    }
+}
